@@ -8,3 +8,4 @@ console.log(a)
 
 // typeof operator
 console.log(typeof a)
+g

@@ -7,7 +7,7 @@ console.log(car)
 
 // methods in array
 car.pop()
-console.log(car)
+console.log(car[2])
 
 car.push("darling")
 console.log(car)
@@ -26,7 +26,7 @@ console.log(car.length)
 
 
 // 2d array
-
+// 2d is an array which consist of arrays
 
 let aaray2d=[   
         [1,1,1],
@@ -34,6 +34,14 @@ let aaray2d=[
         [8,9,50]
 
 ]
+// ["a","b","c"]array  of string
+ 
 console.log(aaray2d)
 console.table(aaray2d)
+
 console.log(aaray2d[1][1])
+
+console.log(aaray2d[1])
+
+let ans=aaray2d[1]
+console.log(ans[2]);
